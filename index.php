@@ -204,7 +204,7 @@
                         </a>
                     </h1>
                     <p>
-                    :. Layout criado em Bootstrap 5 sem a utilização o Jquery .:
+                        :. Layout criado em Bootstrap 5 sem a utilização o Jquery .:
                     </p>
                 </div>
             </div>
@@ -282,6 +282,208 @@
             </div>
         </div>
     </div>
+
+
+    <div class="container-fluid mt-4" id="contatos">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                    </svg>
+                    Contate-nos
+                    <a href="#home" class="text-dark">
+                        <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z" />
+                            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8 3.707 5.354 6.354a.5.5 0 1 1-.708-.708l3-3z" />
+                        </svg>
+                    </a>
+                </h1>
+                <p>
+                    Preencha os campos abaixo para enviar um formulário de contato!!
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5 bg-light p-3">
+            <div class="col-sm-12 col-md-10 col-lg-8 ">
+                <form>
+                    <div class="form-row">
+                        <div class="row">
+                            <div class="form-group col-sm-6 mb-3">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
+                            </div>
+                            <div class="form-group col-sm-6 mb-3">
+                                <label for="nome">Assunto</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Assunto">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6 mb-3">
+                                <label for="nome">Email</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Email">
+                            </div>
+                            <div class="form-group col-sm-6 mb-3">
+                                <label for="nome">Telefone</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Telefone">
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-12 mb-3">
+                            <label for="nome">Comentário</label>
+                            <textarea type="text" class="form-control" id="nome" name="nome"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row mt-4">
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                                </svg>
+                                Enviar
+                            </button>
+
+                            <button data-trigger="focus" type="button" class="btn btn-secondary" data-toggle="popover" title="Ajuda" data-content="Preencha os Campos abaixo e aguarde o retorno em seu email!">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                </svg>
+                                Ajuda
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="p-5 text-light" style="background-color: #041466;">
+        <div class="row">
+            <div class="col-md-3 text-light mb-4">
+                <h6 class="display-6 mb-4">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                    </svg>
+                    Links
+                </h6>
+                <ul class="nav flex-column">
+                    <li class="nav-item pb-2">
+                        <a class="link-nav active" aria-current="page" href="#home">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            </svg>
+                            Início
+                        </a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="link-nav" href="#servicos">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-server" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 4h10v8H3V4z" />
+                                <ellipse cx="8" cy="12" rx="5" ry="2" />
+                                <path d="M13 4c0 1.105-2.239 2-5 2s-5-.895-5-2 2.239-2 5-2 5 .895 5 2z" />
+                                <path d="M11.907 7.343C10.857 7.763 9.475 8 8 8s-2.857-.237-3.907-.657A4.881 4.881 0 0 1 3 6.75V5c0 1.105 2.239 2 5 2s5-.895 5-2v1.75c-.322.24-.698.435-1.093.593zm0 4C10.857 11.763 9.475 12 8 12s-2.857-.237-3.907-.657A4.883 4.883 0 0 1 3 10.75V9c0 1.105 2.239 2 5 2s5-.895 5-2v1.75c-.322.24-.698.435-1.093.593z" />
+                            </svg>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="link-nav" href="#sobre">
+                            <svg width="13px" height="13px" viewBox="0 0 16 16" class="bi bi-info-square-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                            </svg>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item pb-2">
+                        <a class="link-nav" href="#contatos">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
+                            </svg>
+                            Contatos
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-5 mb-4">
+                <h6 class="display-6 mb-4">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" />
+                        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                    Localização
+                </h6>
+                <p>Endereço: Rua Getulio Vargas 1499, Alto Piquiri - PR</p>
+                <p>Atendimento: De Segunda a Sexta das 09:00 hrs ás 19:00 sem a necessidade de agendamento, o atendimento é feito por ordem de chegada!</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h6 class="display-6 mb-4">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-globe" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M1.018 7.5h2.49c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5zM2.255 4H4.09a9.266 9.266 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.024 7.024 0 0 0 2.255 4zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm-.5 1.077c-.67.204-1.335.82-1.887 1.855-.173.324-.33.682-.468 1.068H7.5V1.077zM7.5 5H4.847a12.5 12.5 0 0 0-.338 2.5H7.5V5zm1 2.5V5h2.653c.187.765.306 1.608.338 2.5H8.5zm-1 1H4.51a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm1 2.5V8.5h2.99a12.495 12.495 0 0 1-.337 2.5H8.5zm-1 1H5.145c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12zm-2.173 2.472a6.695 6.695 0 0 1-.597-.933A9.267 9.267 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM1.674 11H3.82a13.651 13.651 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm8.999 3.472A7.024 7.024 0 0 0 13.745 12h-1.834a9.278 9.278 0 0 1-.641 1.539 6.688 6.688 0 0 1-.597.933zM10.855 12H8.5v2.923c.67-.204 1.335-.82 1.887-1.855A7.98 7.98 0 0 0 10.855 12zm1.325-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm.312-3.5h2.49a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.91 4a9.277 9.277 0 0 0-.64-1.539 6.692 6.692 0 0 0-.597-.933A7.024 7.024 0 0 1 13.745 4h-1.834zm-1.055 0H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z" />
+                    </svg>
+                    Redes Sociais
+                </h6>
+                <p>
+                    <a class="link-nav" href="" target="_blank" title="Ir para página do facebook">
+                        <img src="img/face.png" width="20">
+                        Facebook
+                    </a>
+                </p>
+                <p>
+                    <a class="link-nav" href="" target="_blank">
+                        <img src="img/instagram.png" width="20">
+                        Instagram
+                    </a>
+                </p>
+                <p>
+                    <a class="link-nav" href="http://api.whatsapp.com/send?1=pt_BR&phone=5544999472146" target="_blank" title="(44) 99947-2146">
+                        <img src="img/whats.png" width="20">
+                        (44) 99947-2146
+                    </a>
+                </p>
+                <p>
+                    <a class="link-nav" href="contato@hugocursos.com.br" target="_blank">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z" />
+                        </svg>
+                        Email
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
+
+<script type="text/javascript">
+	var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
+	var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+		return new bootstrap.Popover(popoverTriggerEl)
+	})
+	var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+		trigger: 'focus'
+	})
+
+
+</script>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
